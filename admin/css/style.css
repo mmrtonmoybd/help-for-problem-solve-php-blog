@@ -1,0 +1,57 @@
+/* body{
+    padding-top: 60px;
+} */
+
+html,body{
+    height: 100%;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.cm-row{
+    display: flex;
+justify-content: space-around;    
+align-items: center;
+color: white;
+}
+
+.huge{
+    font-size: 30px;
+}
+
+.card-footer{
+    background-color: gainsboro;
+    color: white;
+}
+
+.panel-heading{
+    padding: 10px 20px;
+}
+
+.breadcrumb{
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.body-section{
+    padding-bottom: 70px;
+}
